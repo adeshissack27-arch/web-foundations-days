@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About QuickNotes</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>QuickNotes</h1>
+      <p>Capture ideas before they disappear.</p>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <h2>About QuickNotes</h2>
+      <p>
+        QuickNotes is a fast, lightweight web application designed to help you organize thoughts and tasks seamlessly. It provides a simple, clutter-free space to record ideas instantly before they escape your memory.
+      </p>
+
+      <section>
+        <h3>How to use QuickNotes</h3>
+        <ol>
+          <li>Type your thought or reminder into the "New note" text input box on the home page.</li>
+          <li>Click the "Add Note" button or press Enter to save your note to the active list.</li>
+          <li>Review your saved notes at any time under the "Your notes" section.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h3>Features</h3>
+        <ul class="features">
+          <li>Instant input field with automatic submission handling.</li>
+          <li>Real-time counter displaying total recorded notes.</li>
+          <li>Accessible semantic structure optimized for keyboard navigation and screen readers.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Keyboard shortcuts</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Shortcut</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Enter</td>
+              <td>Add the note</td>
+            </tr>
+            <tr>
+              <td>Tab</td>
+              <td>Navigate through form elements</td>
+            </tr>
+            <tr>
+              <td>Ctrl + S</td>
+              <td>Save the file in VS Code</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h3>Send feedback</h3>
+        <form id="feedback-form">
+          <p>
+            <label for="user-name">Name</label><br>
+            <input
+              type="text"
+              id="user-name"
+              name="name"
+              placeholder="Enter your name"
+              required
+            >
+          </p>
+
+          <p>
+            <label for="user-email">Email</label><br>
+            <input
+              type="email"
+              id="user-email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            >
+          </p>
+
+          <p>
+            <label for="user-message">Message</label><br>
+            <textarea
+              id="user-message"
+              name="message"
+              rows="4"
+              placeholder="Write your feedback..."
+              required
+            ></textarea>
+          </p>
+
+          <button type="submit">Submit Feedback</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 QuickNotes. Built during Web Foundations.</p>
+    </footer>
+  </body>
+</html>
